@@ -6,8 +6,8 @@ pipeline{
     }
 
     environment{
-        NEXUS_IP = '172.31.38.32'
-        NEXUS_PORT = '8081'
+        NEXUSIP = '172.31.38.32'
+        NEXUSPORT = '8081'
         NEXUS_USER = 'admin'
         NEXUS_PASS = 'admin'
         CENTRAL_REPO = 'vpro-maven-central'
